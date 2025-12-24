@@ -2,114 +2,114 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Al Wakrah FC</title>
+<title>Qatar Football – Match Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
-  font-family:Arial, sans-serif;
-  background:#f5f5f5;
-  margin:0;
-  padding:15px;
+    font-family: Arial, sans-serif;
+    background:#f4f6f8;
+    margin:0;
+    padding:15px;
 }
+h2{
+    margin-top:30px;
+}
+.team{
+    background:#ffffff;
+    border-radius:8px;
+    padding:15px;
+    margin-bottom:20px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+.player{
+    padding:8px 0;
+    border-bottom:1px solid #eee;
+}
+.player:last-child{
+    border-bottom:none;
+}
+.active{color:green;font-weight:bold;}
+.bench{color:orange;font-weight:bold;}
+.injured{color:red;font-weight:bold;}
 
-/* STATUS STYLE */
-.status-list{
-  list-style:none;
-  padding:0;
-}
-.status-list li{
-  background:#ffffff;
-  margin:8px 0;
-  padding:12px;
-  border-radius:8px;
-  font-weight:600;
-}
-.active{ color:green; }
-.bench{ color:orange; }
-.injured{ color:red; }
-
-/* BUTTON STYLE */
 .btn{
-  display:inline-block;
-  margin:15px 0;
-  padding:12px 18px;
-  background:#0066ff;
-  color:#fff;
-  text-decoration:none;
-  border-radius:8px;
-  font-weight:bold;
-}
-.btn:hover{
-  background:#004bcc;
+    display:inline-block;
+    background:#0d6efd;
+    color:#fff;
+    padding:10px 15px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-top:10px;
 }
 
-/* MATCH CARD */
-.match-card{
-  background:#fff;
-  padding:15px;
-  margin:12px 0;
-  border-radius:10px;
-  border-left:5px solid #00a859;
+.match{
+    background:#ffffff;
+    padding:15px;
+    border-left:6px solid #198754;
+    border-radius:8px;
+    margin-bottom:15px;
 }
 .score{
-  font-size:20px;
-  font-weight:bold;
-  color:#00a859;
+    font-size:22px;
+    font-weight:bold;
+    color:#198754;
+}
+.small{
+    color:#555;
+    font-size:14px;
 }
 </style>
-
 </head>
+
 <body>
-  
-<h2>🟢 Qatar FC Green – Player Status</h2>
-<ul class="status-list">
-  <li>1 – Saifu 🇧🇩 (Goalkeeper) – <span class="active">Active</span></li>
-  <li>2 – Rahman 🇧🇩 (Defender) – <span class="active">Active</span></li>
-  <li>3 – Imran 🇮🇳 (Defender) – <span class="bench">Bench</span></li>
-  <li>4 – Arif 🇧🇩 (Midfielder) – <span class="active">Active</span></li>
-  <li>5 – Sohail 🇵🇰 (Midfielder) – <span class="active">Active</span></li>
-  <li>6 – Kabir 🇶🇦 (Defender) – <span class="active">Active</span></li>
-  <li>7 – Rafi 🇳🇬 (Forward) – <span class="bench">Bench</span></li>
-</ul>
 
-<hr>
-<h2>🟠 Al Wakrah FC – Player Status</h2>
-
-<ul class="status-list">
-  <li>1 – Salman 🇶🇦 (Goalkeeper) – <span class="active">Active</span></li>
-  <li>2 – Fahad 🇶🇦 (Defender) – <span class="active">Active</span></li>
-  <li>3 – Yousuf 🇵🇰 (Defender) – <span class="bench">Bench</span></li>
-  <li>4 – Adel 🇮🇳 (Midfielder) – <span class="active">Active</span></li>
-  <li>5 – Bilal 🇳🇬 (Midfielder) – <span class="active">Active</span></li>
-  <li>6 – Nasser 🇶🇦 (Defender) – <span class="injured">Injured</span></li>
-  <li>7 – Omar 🇮🇳 (Forward) – <span class="bench">Bench</span></li>
-</ul>
-
-<a href="#match-history" class="btn">👉 View Match History</a>
-
-<hr>
-
-<h2 id="match-history">📊 Official Match History</h2>
-
-<div class="match-card">
-  <p><b>Qatar FC Green</b> vs <b>Al Wakrah FC</b></p>
-  <p class="score">4 – 0</p>
-  <p>📅 22 Dec 2025 | 📍 Doha Ground</p>
-  <p>⭐ Man of the Match: Saifu (GK)</p>
+<h2>🟢 Qatar FC Green – Playing XI</h2>
+<div class="team">
+<div class="player">1. Saifu 🇧🇩 (Goalkeeper) – <span class="active">Active</span></div>
+<div class="player">2. Rahman 🇧🇩 (Defender) – <span class="active">Active</span></div>
+<div class="player">3. Kabir 🇶🇦 (Defender) – <span class="active">Active</span></div>
+<div class="player">4. Imran 🇮🇳 (Defender) – <span class="active">Active</span></div>
+<div class="player">5. Arif 🇧🇩 (Midfielder) – <span class="active">Active</span></div>
+<div class="player">6. Sohail 🇵🇰 (Midfielder) – <span class="active">Active</span></div>
+<div class="player">7. Hassan 🇶🇦 (Midfielder) – <span class="active">Active</span></div>
+<div class="player">8. Rafi 🇳🇬 (Forward) – <span class="active">Active</span></div>
+<div class="player">9. Jubair 🇧🇩 (Forward) – <span class="active">Active</span></div>
+<div class="player">10. Omar 🇶🇦 (Forward) – <span class="active">Active</span></div>
+<div class="player">11. Aminul 🇧🇩 (Forward) – <span class="active">Active</span></div>
 </div>
 
-<div class="match-card">
-  <p><b>Al Wakrah FC</b> vs <b>Doha United</b></p>
-  <p class="score">2 – 1</p>
-  <p>📅 15 Dec 2025 | 📍 Aspire Stadium</p>
-  <p>⭐ Man of the Match: Fahad</p>
+<h2>🟠 Al Wakrah FC – Playing XI</h2>
+<div class="team">
+<div class="player">1. Salman 🇶🇦 (Goalkeeper) – <span class="active">Active</span></div>
+<div class="player">2. Fahad 🇶🇦 (Defender) – <span class="active">Active</span></div>
+<div class="player">3. Nasser 🇶🇦 (Defender) – <span class="active">Active</span></div>
+<div class="player">4. Yousuf 🇵🇰 (Defender) – <span class="active">Active</span></div>
+<div class="player">5. Adel 🇮🇳 (Midfielder) – <span class="active">Active</span></div>
+<div class="player">6. Bilal 🇳🇬 (Midfielder) – <span class="active">Active</span></div>
+<div class="player">7. Hadi 🇶🇦 (Midfielder) – <span class="active">Active</span></div>
+<div class="player">8. Omar 🇮🇳 (Forward) – <span class="active">Active</span></div>
+<div class="player">9. Khalid 🇶🇦 (Forward) – <span class="active">Active</span></div>
+<div class="player">10. Sami 🇵🇰 (Forward) – <span class="active">Active</span></div>
+<div class="player">11. Rahul 🇮🇳 (Forward) – <span class="active">Active</span></div>
 </div>
 
-<div class="match-card">
-  <p><b>Al Wakrah FC</b> vs <b>Lusail Stars</b></p>
-  <p class="score">1 – 1</p>
-  <p>📅 08 Dec 2025 | 📍 Lusail</p>
-  <p>⭐ Man of the Match: Adel</p>
+<a class="btn" href="#history">⭐ View Match History</a>
+
+<h2 id="history">📊 Official Match History</h2>
+
+<div class="match">
+<div><strong>Qatar FC Green vs Al Wakrah FC</strong></div>
+<div class="score">4 – 0</div>
+<div class="small">📅 22 Dec 2025 | 📍 Doha Ground</div>
+<div class="small">⭐ Man of the Match: Saifu (GK)</div>
+</div>
+
+<div class="match">
+<div><strong>Al Wakrah FC vs Doha United</strong></div>
+<div class="score">2 – 1</div>
+<div class="small">📅 15 Dec 2025 | 📍 Aspire Stadium</div>
+<div class="small">⭐ Man of the Match: Fahad</div>
 </div>
 
 </body>
