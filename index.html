@@ -1,182 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Qatar FC Green - Match Center</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body{
-      font-family: Arial, sans-serif;
-      background:#f4f6f8;
-      margin:0;
-      padding:15px;
-    }
-    h2{
-      margin-top:25px;
-      margin-bottom:10px;
-    }
-    .team{
-      background:#fff;
-      border-radius:8px;
-      padding:10px;
-      margin-bottom:20px;
-    }
-    .team.green{border-left:6px solid #2ecc71;}
-    .team.orange{border-left:6px solid #f39c12;}
+<meta charset="UTF-8">
+<title>Qatar FC Green – Match Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    .player{
-      display:flex;
-      justify-content:space-between;
-      padding:8px 5px;
-      border-bottom:1px solid #eee;
-      font-size:14px;
-    }
-    .player:last-child{border-bottom:none;}
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+  padding:15px;
+}
+h2{
+  margin:20px 0 10px;
+}
+.team{
+  background:#fff;
+  border-radius:8px;
+  padding:10px;
+  margin-bottom:20px;
+}
+.green{border-left:6px solid #2ecc71;}
+.orange{border-left:6px solid #f39c12;}
 
-    .active{color:green;font-weight:bold;}
-    .bench{color:#f1c40f;font-weight:bold;}
-    .injured{color:red;font-weight:bold;}
+.player{
+  display:flex;
+  justify-content:space-between;
+  padding:8px 5px;
+  border-bottom:1px solid #eee;
+  font-size:14px;
+}
+.player:last-child{border-bottom:none;}
 
-    .btn{
-      display:inline-block;
-      margin:10px 0;
-      padding:10px 15px;
-      background:#3498db;
-      color:#fff;
-      text-decoration:none;
-      border-radius:6px;
-      font-weight:bold;
-    }
+.active{color:green;font-weight:bold;}
+.bench{color:#f1c40f;font-weight:bold;}
+.injured{color:red;font-weight:bold;}
 
-    .match{
-      background:#fff;
-      border-radius:8px;
-      padding:10px;
-      margin-bottom:15px;
-      border-left:6px solid #2ecc71;
-    }
-    .score{
-      font-size:22px;
-      font-weight:bold;
-      color:#27ae60;
-    }
-    .meta{
-      font-size:13px;
-      color:#555;
-      margin-top:5px;
-    }
-    .motm{
-      margin-top:5px;
-      font-size:14px;
-      color:#e67e22;
-      font-weight:bold;
-    }
-  </style>
+.btn{
+  display:inline-block;
+  margin:10px 0 20px;
+  padding:10px 15px;
+  background:#3498db;
+  color:#fff;
+  border-radius:6px;
+  font-weight:bold;
+}
+
+.match{
+  background:#fff;
+  border-radius:8px;
+  padding:10px;
+  margin-bottom:15px;
+  border-left:6px solid #2ecc71;
+}
+.score{
+  font-size:22px;
+  font-weight:bold;
+  color:#27ae60;
+}
+.meta{
+  font-size:13px;
+  color:#555;
+}
+.motm{
+  margin-top:5px;
+  font-weight:bold;
+  color:#e67e22;
+}
+</style>
 </head>
+
 <body>
 
+<!-- QATAR FC GREEN -->
 <h2>🟢 Qatar FC Green – Player Status</h2>
 <div class="team green">
-  <div class="player">1 – Saifu (GK) <span class="active">Active</span></div>
-  <div class="player">2 – Rahman (DF) <span class="active">Active</span></div>
-  <div class="player">3 – Imran (DF) <span class="bench">Bench</span></div>
-  <div class="player">4 – Arif (MF) <span class="active">Active</span></div>
-  <div class="player">5 – Sohail (MF) <span class="active">Active</span></div>
-  <div class="player">6 – Kabir (DF) <span class="active">Active</span></div>
-  <div class="player">7 – Rafi (FW) <span class="bench">Bench</span></div>
-  <div class="player">8 – Tanvir (MF) <span class="active">Active</span></div>
-  <div class="player">9 – Faisal (FW) <span class="active">Active</span></div>
-  <div class="player">10 – Mahin (FW) <span class="bench">Bench</span></div>
-  <div class="player">11 – Nasir (DF) <span class="active">Active</span></div>
+  <div class="player">1 – Saifu 🇧🇩 (Goalkeeper) <span class="active">Active</span></div>
+  <div class="player">2 – Afif 🇶🇦 (Defender) <span class="active">Active</span></div>
+  <div class="player">3 – Hasan 🇵🇰 (Defender) <span class="active">Active</span></div>
+  <div class="player">4 – Ahmed 🇮🇳 (Midfielder) <span class="active">Active</span></div>
+  <div class="player">5 – A. Mohamad 🇶🇦 (Midfielder) <span class="active">Active</span></div>
+  <div class="player">6 – Al Majid 🇶🇦 (Defender) <span class="active">Active</span></div>
+  <div class="player">7 – Z. Mohamad 🇵🇰 (Forward) <span class="bench">Bench</span></div>
+  <div class="player">8 – Al Yasa 🇶🇦 (Midfielder) <span class="active">Active</span></div>
+  <div class="player">9 – F. Saleh 🇶🇦 (Forward) <span class="active">Active</span></div>
+  <div class="player">10 – Abdullah 🇮🇳 (Midfielder) <span class="bench">Bench</span></div>
+  <div class="player">11 – Al Abden 🇶🇦 (Defender) <span class="active">Active</span></div>
 </div>
 
+<!-- AL WAKRAH FC -->
 <h2>🟠 Al Wakrah FC – Player Status</h2>
 <div class="team orange">
-  <div class="player">1 – Salman (GK) <span class="active">Active</span></div>
-  <div class="player">2 – Fahad (DF) <span class="active">Active</span></div>
-  <div class="player">3 – Yousuf (DF) <span class="bench">Bench</span></div>
-  <div class="player">4 – Adel (MF) <span class="active">Active</span></div>
-  <div class="player">5 – Bilal (MF) <span class="active">Active</span></div>
-  <div class="player">6 – Nasser (DF) <span class="injured">Injured</span></div>
-  <div class="player">7 – Omar (FW) <span class="bench">Bench</span></div>
-  <div class="player">8 – Hamza (MF) <span class="active">Active</span></div>
-  <div class="player">9 – Rashid (FW) <span class="active">Active</span></div>
-  <div class="player">10 – Khalid (MF) <span class="bench">Bench</span></div>
-  <div class="player">11 – Sameer (DF) <span class="active">Active</span></div>
+  <div class="player">1 – Salman 🇶🇦 (Goalkeeper) <span class="active">Active</span></div>
+  <div class="player">2 – Fahad 🇵🇰 (Defender) <span class="active">Active</span></div>
+  <div class="player">3 – Yousuf 🇮🇳 (Defender) <span class="bench">Bench</span></div>
+  <div class="player">4 – Adel 🇶🇦 (Midfielder) <span class="active">Active</span></div>
+  <div class="player">5 – Bilal 🇵🇰 (Midfielder) <span class="active">Active</span></div>
+  <div class="player">6 – Nasser 🇶🇦 (Defender) <span class="injured">Injured</span></div>
+  <div class="player">7 – Omar 🇮🇳 (Forward) <span class="bench">Bench</span></div>
+  <div class="player">8 – Hamza 🇳🇬 (Midfielder) <span class="active">Active</span></div>
+  <div class="player">9 – Rashid 🇶🇦 (Forward) <span class="active">Active</span></div>
+  <div class="player">10 – Khalid 🇵🇰 (Midfielder) <span class="bench">Bench</span></div>
+  <div class="player">11 – Sameer 🇳🇬 (Defender) <span class="active">Active</span></div>
 </div>
 
-<a class="btn">⭐ View Match History</a>
+<div class="btn">⭐ View Match History</div>
 
+<!-- MATCH HISTORY -->
 <h2>📊 Official Match History</h2>
 
 <div class="match">
   <div>Qatar FC Green vs Al Wakrah FC</div>
   <div class="score">4 – 0</div>
   <div class="meta">22 Dec 2025 | Doha Ground</div>
-  <div class="motm">⭐ Man of the Match: Arif</div>
+  <div class="motm">⭐ Man of the Match: Ahmed 🇮🇳</div>
 </div>
 
 <div class="match">
   <div>Al Wakrah FC vs Doha United</div>
   <div class="score">2 – 1</div>
   <div class="meta">15 Dec 2025 | Aspire Stadium</div>
-  <div class="motm">⭐ Man of the Match: Fahad</div>
+  <div class="motm">⭐ Man of the Match: Fahad 🇵🇰</div>
 </div>
 
 <div class="match">
   <div>Qatar FC Green vs Lusail Stars</div>
   <div class="score">3 – 1</div>
   <div class="meta">10 Dec 2025 | Lusail Ground</div>
-  <div class="motm">⭐ Man of the Match: Faisal</div>
-</div>
-
-<div class="match">
-  <div>Al Wakrah FC vs Al Rayyan B</div>
-  <div class="score">1 – 1</div>
-  <div class="meta">07 Dec 2025 | Wakrah Stadium</div>
-  <div class="motm">⭐ Man of the Match: Adel</div>
+  <div class="motm">⭐ Man of the Match: F. Saleh 🇶🇦</div>
 </div>
 
 <div class="match">
   <div>Qatar FC Green vs Aspire Juniors</div>
   <div class="score">5 – 2</div>
-  <div class="meta">03 Dec 2025 | Aspire Ground</div>
-  <div class="motm">⭐ Man of the Match: Sohail</div>
+  <div class="meta">03 Dec 2025 | Aspire</div>
+  <div class="motm">⭐ Man of the Match: A. Mohamad 🇶🇦</div>
 </div>
 
 <div class="match">
   <div>Al Wakrah FC vs Lusail Stars</div>
   <div class="score">0 – 2</div>
   <div class="meta">30 Nov 2025 | Lusail</div>
-  <div class="motm">⭐ Man of the Match: Rashid</div>
+  <div class="motm">⭐ Man of the Match: Hamza 🇳🇬</div>
 </div>
 
 <div class="match">
   <div>Qatar FC Green vs Al Sadd Academy</div>
   <div class="score">2 – 0</div>
   <div class="meta">26 Nov 2025 | Doha Ground</div>
-  <div class="motm">⭐ Man of the Match: Kabir</div>
-</div>
-
-<div class="match">
-  <div>Al Wakrah FC vs Doha United</div>
-  <div class="score">3 – 2</div>
-  <div class="meta">22 Nov 2025 | Wakrah</div>
-  <div class="motm">⭐ Man of the Match: Hamza</div>
-</div>
-
-<div class="match">
-  <div>Qatar FC Green vs Lusail Stars</div>
-  <div class="score">1 – 0</div>
-  <div class="meta">18 Nov 2025 | Lusail</div>
-  <div class="motm">⭐ Man of the Match: Tanvir</div>
+  <div class="motm">⭐ Man of the Match: Al Majid 🇶🇦</div>
 </div>
 
 <div class="match">
   <div>Al Wakrah FC vs Aspire Juniors</div>
   <div class="score">2 – 2</div>
   <div class="meta">14 Nov 2025 | Aspire</div>
-  <div class="motm">⭐ Man of the Match: Bilal</div>
+  <div class="motm">⭐ Man of the Match: Bilal 🇵🇰</div>
 </div>
 
 </body>
